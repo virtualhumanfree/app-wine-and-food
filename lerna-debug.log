@@ -1,0 +1,22 @@
+0 silly argv {
+0 silly argv   _: [ 'import' ],
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0': 'lerna',
+0 silly argv   dir: '../../practice-app-caviste/wineAndFood'
+0 silly argv }
+1 notice cli v3.20.2
+2 verbose rootPath /home/alexis/Bureau/Travail/app-wine-and-food/lerna-repo
+3 error Error: Command failed: git rev-parse HEAD
+3 error fatal: argument 'HEAD' ambigu : révision inconnue ou chemin inexistant.
+3 error Utilisez '--' pour séparer les chemins des révisions, comme ceci :
+3 error 'git <commande> [<révision>...] -- [<chemin>...]'
+3 error
+3 error HEAD
+3 error
+3 error     at makeError (/home/alexis/.nvm/versions/node/v12.16.0/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+3 error     at Function.module.exports.sync (/home/alexis/.nvm/versions/node/v12.16.0/lib/node_modules/lerna/node_modules/execa/index.js:338:15)
+3 error     at Object.execSync (/home/alexis/.nvm/versions/node/v12.16.0/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:26:16)
+3 error     at ImportCommand.execSync (/home/alexis/.nvm/versions/node/v12.16.0/lib/node_modules/lerna/node_modules/@lerna/import/index.js:143:34)
+3 error     at ImportCommand.getCurrentSHA (/home/alexis/.nvm/versions/node/v12.16.0/lib/node_modules/lerna/node_modules/@lerna/import/index.js:135:17)
+3 error     at ImportCommand.initialize (/home/alexis/.nvm/versions/node/v12.16.0/lib/node_modules/lerna/node_modules/@lerna/import/index.js:104:31)
+3 error     at /home/alexis/.nvm/versions/node/v12.16.0/lib/node_modules/lerna/node_modules/@lerna/command/index.js:272:24
