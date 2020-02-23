@@ -9,6 +9,7 @@
     "start": "lerna run start --stream"
   },
   "dependencies": {
+    "@feathersjs/configuration": "^4.5.1",
     "@feathersjs/express": "^4.5.1",
     "@feathersjs/feathers": "^4.5.1",
     "@feathersjs/socketio": "^4.5.1",
